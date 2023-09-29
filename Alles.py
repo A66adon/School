@@ -12,8 +12,7 @@ while True: #damit jedes mal andere Farben benutzt werden dammit nich auffällt 
     color1 = c[random.randint(0, len(c)-1)]
     color2 = c[random.randint(0, len(c)-1)]
     if color1 == color2: # Dass nich die Selbe Farbe für den Roboter und den Hintergrund benutzt wird
-        color1 = c[random.randint(0, len(c)-1)]
-        color2 = c[random.randint(0, len(c)-1)]
+        paas
     else:
         break
 
